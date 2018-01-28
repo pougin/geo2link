@@ -1,0 +1,22 @@
+{
+  "name": "play",
+  "homepage": "https://github.com/Homebrew/homebrew",
+  "authors": [
+    "黄 山 <pougin@qq.com>"
+  ],
+  "description": "play with data",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "echarts": "^3.8.3",
+    "jquery": "^3.2.1",
+    "leaflet": "^1.2.0"
+  }
+}

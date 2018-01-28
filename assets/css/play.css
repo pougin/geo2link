@@ -1,0 +1,25 @@
+.highway-list, .link-controller {
+  width: 180px;
+  position: fixed;
+  right: 10px;
+  top: 60px;
+  border-radius: 3px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  max-height: 640px;
+  overflow: scroll; }
+  .highway-list a, .link-controller a {
+    display: block;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    background: #ddd;
+    border-bottom: solid 1px #eee; }
+    .highway-list a.selected, .link-controller a.selected {
+      background: white; }
+    .highway-list a:hover, .link-controller a:hover {
+      background: #eee; }
+
+.link-controller {
+  top: 10px; }

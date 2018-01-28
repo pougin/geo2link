@@ -1,0 +1,31 @@
+.highway-list, .link-controller{
+  width: 180px;
+  position: fixed;
+  right: 10px;
+  top: 60px;
+  border-radius: 3px;
+  border:2px solid rgba(0,0,0,0.2);
+  //box-shadow: 0 0 10px #999;
+  max-height: 640px;
+  overflow: scroll;
+  a{
+    display: block;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size:14px;
+    line-height: 30px;
+    color: #333;
+    background: #ddd;
+    border-bottom: solid 1px #eee;
+    &.selected{
+      background: white;
+    }
+    &:hover{
+      background: #eee;
+    }
+  }
+}
+
+.link-controller{
+  top:10px
+}
